@@ -140,8 +140,7 @@ h1{
     border: none;
     background-color: var(--red);
     border-radius: 25px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    color: var(--grey-ligth);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    color: var(--grey-ligth);
     font-size: 20px;
 }
 .alertAmpliarSesion{
@@ -151,8 +150,7 @@ h1{
     border: none;
     background-color: var(--blue);
     border-radius: 25px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    color: var(--grey-ligth);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;    color: var(--grey-ligth);
     font-size: 20px;
 }
 
