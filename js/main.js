@@ -6,6 +6,7 @@ const alertAmpliarSesion = document.getElementsByClassName('alertAmpliarSesion')
 const btnFeedBack = document.getElementsByClassName('alertFeedBack');
 const feedBack= document.getElementById('feedBack');
 const btnFeedBacX= document.getElementsByClassName('feedBack-x');
+const btnEnviar = document.getElementsByClassName('btnEnviar');
 // Función para mostrar la alerta de cookies
 function mostrarAlertCookies() {
     cookies.style.display = 'flex';
@@ -45,3 +46,11 @@ function cerrarFeedBack() {
 }
 
 btnFeedBacX[0].addEventListener('click', cerrarFeedBack);
+
+// Función para enviar el feedback
+function enviarFeedBack() {
+    feedBack.style.display = 'none';
+}
+
+btnEnviar[0].addEventListener('click', enviarFeedBack);
+
