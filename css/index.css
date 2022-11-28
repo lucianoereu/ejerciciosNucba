@@ -16,7 +16,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--grey);
+    background-color: var(--grey-ligth);
 }
 /**** botones ****/
 .alertCookies{
