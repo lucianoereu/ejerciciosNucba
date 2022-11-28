@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://kit.fontawesome.com/71484c1546.js" crossorigin="anonymous"></script>
     <title>Pop</title>
   </head>
   <body>
@@ -15,6 +16,7 @@
     <div id="btnPop">
         <button class="alertCookies">Alert 1</button>
         <button class="alertAmpliarSesion">Alert 2</button>
+        <button class="alertFeedBack">Alert 3</button>
     </div>
 
     <div id="cookies">
@@ -33,6 +35,35 @@
         <p>¡Se cerrará la sesión inmediatamente!</p>
         <button class="btnAmpliarSesion">Ampliar sesión</button>
     </div>
+</div>
+
+
+<!--- ejercicio 2 feed back  ---->
+<div id="feedBack">
+  <button class="feedBack-x">x</button>
+  <p class="texto-feedBack">¿Cómo te sentiste con el soporte de Federico?</p>
+    <div class="ul">
+      <ul>
+        <li><input type="radio" name="satisfaccion" id="1" class="radio">
+        <label for="1">1</label></li>
+        <li><input type="radio" name="satisfaccion" id="2" class="radio"><label for="2">2</label></li>
+        <li><input type="radio" name="satisfaccion" id="3" class="radio"><label for="3">3</label></li>
+        <li><input type="radio" name="satisfaccion" id="4" class="radio"><label for="4">4</label></li>
+        <li><input type="radio" name="satisfaccion" id="5" class="radio"><label for="5">5</label></li>
+      </ul>
+      <div class="texto-ul">
+        <p class="p2">Bastante
+          insatisfecho</p>
+        <p class="p3">Extremadamente
+          satisfecho</p>
+      </div>
+    </div>
+    <div class="terminos">
+      <input type="checkbox" name="acepto" id="aceptar">
+      <label for="aceptar">Acepto los términos y condiciones</label>
+    </div>
+    <div class="line"></div>
+      <button class="btnEnviar">SIGUIENTE</button>
 </div>
 
     <script src="./js/main.js"></script>
